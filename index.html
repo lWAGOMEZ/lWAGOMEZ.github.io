@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <!--My Documents-->
+    <link rel="stylesheet" href="CV.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Font Aweasome-->
+    <script src="https://kit.fontawesome.com/860270b4b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid bg__body">
+        <!--Navegador del documento-->
+        <nav class="row">
+            <div class="col">
+                <a href="#Perfil" class="letra__navegador">Perfil</a>
+            </div>
+            <div class="col">
+                <a href="#Formacion" class="letra__navegador">Formacion</a>
+            </div>
+            <div class="col">
+                <a href="#Laboral" class="letra__navegador">Experiencia</a>
+            </div>
+        </nav>
+        <!--Perfil de la Persona-->
+        <div class="foto_perfil">
+            <img src="https://static9.depositphotos.com/1144472/1154/i/600/depositphotos_11548961-stock-photo-smiling-young-beautiful-woman-indoors.jpg"
+                alt="Leta Simmmons Foto de Perfil" class="img_simmmons">
+        </div>
+        <div class="nombre">
+            <h1>Leta Simmmons</h1>
+            <p>25 años</p>
+        </div>
+        <!--Informacion de la Persona-->
+        <div class="row info_Simmmons">
+            <!--Informacion de contacto y habilidades-->
+            <aside class="col col-lg-3 col-xl-3 col-xxl-3 info_Simmmons_adi">
+                <h3>Contacto</h3>
+                <div>
+                    <p><button onclick="newDoc1()" class="botones"><i class="fa-solid fa-phone"></i></button></i>+54
+                        2234 74 2712</p>
+                    <p><button onclick="newDoc2()" class="botones"><i
+                                class="fa-solid fa-envelope"></i></button>leta.simmmons@gmail.com</p>
+                    <p><button onclick="newDoc3()" class="botones"><i class="fa-brands fa-facebook-f"></i></button>Leta
+                        Simmmons_</p>
+                    <p><button onclick="newDoc4()" class="botones" ><i
+                                class="fa-solid fa-location-dot"></i></button>Alberti 4349, Mar del Plata.</p>
+                </div>
+                <h3>Conocimientos</h3>
+                <ul>
+                    <li><a href="https://www.w3schools.com/js/" class="letra__conocimiento" target="_blank">JavaScript</a></li>
+                    <li><a href="https://www.w3schools.com/html/" class="letra__conocimiento" target="_blank">HTML</a></li>
+                    <li><a href="https://www.w3schools.com/css/" class="letra__conocimiento" target="_blank">Css</a></li>
+                    <li><a href="https://www.w3schools.com/Python/" class="letra__conocimiento" target="_blank">Python</a></li>
+                </ul>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Pro Activo</li>
+                    <li>Capacidad de Trabajo en Equipo</li>
+                    <li>Mente Abierta</li>
+                    <li>Resolucion de Problemas</li>
+                    <li>Capacidad de Adaptacion</li>
+                </ul>
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Ingles Intermedio</li>
+                    <li>Español Nativo</li>
+                </ul>
+            </aside>
+            <!--Informacion Profecional-->
+            <article class="col info_Simmmons_main">
+                <h2 id="Perfil"><i class="fa-solid fa-address-card letra__profecional"></i>Perfil Personal</h2>
+                <p>Estudiante de 5° año de Ingeniería en Sistemas de Información, con conocimientos en varios lenguajes
+                    de programacion y tambien con buenos habitos de programacion. Con disposicion en seguir aprendiendo
+                    y
+                    trabajar.</p>
+                <h2 id="Formacion"><i class="fa-solid fa-user-tie letra__profecional"></i>Formación Academica</h2>
+                <p>Ingeniería en Sistemas de Información</p>
+                <p>(Estudiante)</p>
+                <p>Universidad Tecnológica Nacional</p>
+                <p>(2018 - Actualmente)</p>
+                <h2 id="Laboral"><i class="fa-solid fa-briefcase letra__profecional"></i>Experiencia Laboral</h2>
+                <p>Empresa de Control y Gestion de Paginas Web</p>
+                <p>Pasante - Control de Paginas Web (Testing)</p>
+                <p>(2020 - Actualmente)</p>
+            </article>
+        </div>
+    </div>
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--My Documents-->
+    <script src="CV.js"></script>
+</body>
+
+</html>

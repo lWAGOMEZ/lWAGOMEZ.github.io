@@ -1,0 +1,106 @@
+/*Estilo__Body*/
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bg__body{
+    background-color: rgb(196, 199, 253);
+}
+
+/*Estilo__Navegador del documento*/
+
+nav{
+    border-radius: 10px;
+    background-color: rgb(217, 219, 255);
+    margin: 20px;
+    border: 5px solid #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+.letra__navegador{
+    color: black;
+    text-decoration: none;
+}
+
+/*Estilo__Perfil de la Persona*/
+
+.foto_perfil{
+    border-radius: 10px;
+    background-image: url("https://images.pexels.com/photos/1626385/pexels-photo-1626385.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 40px;
+    padding: auto;
+    border: 5px solid #fff;
+}
+
+.img_simmmons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.nombre{
+    border-radius: 10px;
+    background-color: rgb(217, 219, 255);
+    text-align: center;
+    margin: 40px;
+    padding: auto;
+    border: 5px solid #fff;
+}
+
+/*Estilo__Informacion de la Persona*/
+
+.info_Simmmons_adi{
+    border-radius: 10px;
+    background-color: rgb(217, 219, 255);  
+    margin: 40px;
+    padding: 10px;
+    border: 5px solid #fff;
+}
+
+.info_Simmmons_main{
+    border-radius: 10px;
+    background-color: rgb(217, 219, 255);    
+    margin: 40px;
+    padding: 10px;
+    border: 5px solid #fff;
+}
+
+.letra__conocimiento{
+    color: black;
+    text-decoration: none;
+}
+
+.letra__profecional{
+    border-radius: 10px;
+    border: 0px solid #fff;
+    background-color: #fff;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+/*Estilos__Botones*/
+
+aside  div p i{
+    font-size: 20px;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.botones{
+    border-radius: 10px;
+    border: 0px solid #fff;
+    background-color: #fff;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
